@@ -17,7 +17,7 @@ namespace Lab12_RockPaperScissors
             bool invalid = true;
             while (invalid)
             {
-                Console.Write("\n\nPark another car? (y/n): ");
+                Console.Write("\n\nAnother throw? (y/n): ");
                 input = Console.ReadLine();
                 input = input.ToLower();
                 if (input == "y" || input == "n")

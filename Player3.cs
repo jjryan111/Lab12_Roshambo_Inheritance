@@ -8,8 +8,7 @@ namespace Lab12_RockPaperScissors
 {
     public class Player3 : Player
     {
-        Player3(
-            string name)
+        public Player3(string name)
         {
             this.name = name;
         }
@@ -24,10 +23,10 @@ namespace Lab12_RockPaperScissors
                     return "Rock";
 
                 case 2:
-                    return "Scissors";
+                    return "Paper";
 
                 case 3:
-                    return "Paper";
+                    return "Scissors";
 
                 default:
                     return "Bad throw";

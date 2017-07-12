@@ -9,7 +9,7 @@ namespace Lab12_RockPaperScissors
 
     public class Player2 : Player
     {
-        Player2 (string name)
+        public Player2 (string name)
         {
             this.name = name;
         }
