@@ -10,14 +10,14 @@ namespace Lab12_RockPaperScissors
     {
         public Input() { }
 
-        public string ynInput()
+        public string ynInput(string question)
         // Gets a y or n.
         {
             string input = "";
             bool invalid = true;
             while (invalid)
             {
-                Console.Write("\n\nAnother throw? (y/n): ");
+                Console.Write(question);
                 input = Console.ReadLine();
                 input = input.ToLower();
                 if (input == "y" || input == "n")
